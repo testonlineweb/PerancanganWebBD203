@@ -1,0 +1,309 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Style */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body{
+    background-color: white;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+.container{
+    width: 1366px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.header{
+    height: 500px;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo-stikom{
+    width: 200px;
+}
+
+.menu{
+    display: inline-block;
+}
+
+.list-menu{
+    display: inline-block;
+    color: white;
+    position: relative;
+    left: 700px;
+    top: -80px;
+}
+
+.list-menu a{
+    text-decoration: none;
+    color: white;
+    margin-right: 80px;
+    transition: .4s;
+}
+
+.list-menu a:hover{
+    color: #c4c4c4;
+    transition: .4s;
+}
+
+.tittle-s{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    position: relative;
+    top: 70px;
+    left: 140px;
+    letter-spacing: 10px;
+}
+
+.daftar{
+    position: relative;
+    left: 560px;
+    top: 100px;
+}
+
+.daftar-i{
+    font-size: 20px;
+    padding: 20px 50px;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(to right, #FF416C, #FF4B2B);
+    color: #fff;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.daftar-i:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.banner-1{
+    height: 1200px;
+    background: linear-gradient(to right, #FF416C, #FF4B2B);
+}
+
+.tentang{
+    float: right;
+    width: 700px;
+    height: 500px;
+}
+
+.side-logo{
+    position: relative;
+    left: 50px;
+    top: 50px;
+    border-radius: 20px;
+    width: 500px;
+    height: 400px;
+    transition: .5s;
+}
+
+.side-logo:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.tittle-stikom{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+    padding-right: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+.sub-stikom{
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    line-height: 40px;
+    font-size: 30px;
+    padding-top: 60px;
+    padding-right: 20px;
+    color: white;
+}
+
+.tentang-2{
+    float: right;
+    padding-right: 100px;
+    width: 680px;
+    height: 700px;
+}
+
+.gambar-1{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    top: 70px;
+    left: 75px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px black;
+    transition: .5s;
+}
+
+.gambar-2{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    top: 70px;
+    left: 145px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px black;
+    transition: .5s;
+}
+
+.gambar-3{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    top: 130px;
+    left: 75px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px black;
+    transition: .5s;
+}
+
+.gambar-4{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    top: 130px;
+    left: 145px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px black;
+    transition: .5s;
+}
+
+.gambar-1:hover , .gambar-2:hover , .gambar-3:hover , .gambar-4:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.sub-side{
+    margin-top: 120px;
+    width: 640px;
+    height: 700px;
+}
+
+.pict-1{
+    margin-left: 70px;
+    margin-top: 20px;
+    width: 500px;
+    height: 200px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.social-care{
+    width: 70px;
+    position: relative;
+    top: 60px;
+    left: 50px;
+}
+
+.tittle{
+    margin-top: -20px;
+    padding-left: 150px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.sub-tittle{
+    padding-top: 15px;
+    padding-left: 150px;
+}
+
+
+.footer{
+    height: 250px;
+    background: #c4c4c4;
+    clear: both;
+}
+
+.box-1{
+    width: 250px;
+    height: 200px;
+    position: relative;
+    top: 50px;
+    left: 150px;
+}
+
+.social-1{
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    top: 41px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.social-2{
+    font-size: 16px;
+    position: relative;
+    top: 60px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 30px;
+}
+
+.box-2{
+    width: 250px;
+    height: 200px;
+    position: relative;
+    top: -150px;
+    left: 540px;
+}
+
+.box-3{
+    width: 250px;
+    height: 200px;
+    position: relative;
+    top: -357px;
+    left: 970px;
+}
